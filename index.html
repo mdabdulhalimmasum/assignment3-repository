@@ -9,8 +9,31 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!--font awesome-->
     <script src="https://kit.fontawesome.com/fb0849d32e.js" crossorigin="anonymous"></script>
+    <style>
+        .bg-img1{
+          background-image: url('../assignment3-repository/Images/2.png');
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 350px;
+          width: 100%;
+        }
+        .bg-img2{
+          background-image: url('../assignment3-repository/Images/3.png');
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 350px;
+          width: 100%;
+        }
+        .bg-img3{
+          background-image: url('../assignment3-repository/Images/4.png');
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 350px;
+          width: 100%;
+        }
+    </style>
 </head>
-<body>
+<body class="m-12">
     <header>
        <nav>
         <div class="navbar bg-base-100">
@@ -87,31 +110,55 @@
         <section>
             <div class="text-center justify-center lg:-mt-16">
                 <h3 class="text-[xl] lg:text-2xl font-extrabold">Professional Hockeys Club</h3>
-                <p class=" text-sm lg:text-base">The game has much importance in India as it has chosen it as its national game.<br> Also, India has a bright and big deep-rooted history related to sports.</p>
+                <p class=" text-sm lg:text-base">The game has much importance in India as it has chosen it as<br> its national game. Also, India has a bright<br> and big deep-rooted history related to sports.</p>
             </div>
             <!--progress-->
             <div class="grid lg:grid-cols-4 gap-5 mt-14 text-center justify-center">
                 <div>
                     <div class="radial-progress text-[#FF4240]" style="--value:87;" role="progressbar">87%</div>
                     <h5 class="text-lg font-bold">Prayer Facility</h5>
-                    <p class="text-sm">The field has a fixed dimension and it is in rectangular shape divided into two halves of equal length and breadth.</p>
+                    <p class="text-sm">The field has a fixed dimension and it is in rectangular<br> shape divided into two halves of equal length and breadth.</p>
                 </div>
                 <div>
                     <div class="radial-progress text-[#49D293]" style="--value:95;" role="progressbar">95%</div>
                     <h5 class="text-lg font-bold">Experienced Coach</h5>
-                    <p class="text-sm">The field has a fixed dimension and it is in rectangular shape divided into two halves of equal length and breadth.</p>
+                    <p class="text-sm">The field has a fixed dimension and it is in rectangular<br> shape divided into two halves of equal length and breadth.</p>
                 </div>
                 <div>
                     <div class="radial-progress text-[#FFB546]" style="--value:90;" role="progressbar">90%</div>
                     <h5 class="text-lg font-bold">Senior Player</h5>
-                    <p class="text-sm">The field has a fixed dimension and it is in rectangular shape divided into two halves of equal length and breadth.</p>
+                    <p class="text-sm">The field has a fixed dimension and it is in rectangular<br> shape divided into two halves of equal length and breadth.</p>
                 </div>
                 <div>
                     <div class="radial-progress text-[#4C8DF1]" style="--value:80;" role="progressbar">80%</div>
                     <h5 class="text-lg font-bold">Prayer Facility</h5>
-                    <p class="text-sm">The field has a fixed dimension and it is in rectangular shape divided into two halves of equal length and breadth.</p>
+                    <p class="text-sm">The field has a fixed dimension and it is in rectangular <br> shape divided into two halves of equal length and breadth.</p>
                 </div>
             </div>
+        </section>
+        <!--program section-->
+        <section class="py-12">
+           <div class="text-center justify-center">
+             <h3 class="text-[xl] lg:text-2xl font-extrabold">Program Sections</h3>
+             <p class="text-sm lg:text-base">The field has a fixed dimension and it is in rectangular shape divided into two halves</p>
+           </div>
+           <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-6">
+             <div class="bg-img1 pl-8 pt-20">
+                <h4 class=" text-white text-xl font-extrabold">Junior Program</h4>
+                <p class=" text-white text-sm lg:text-base">Besides, most of the rules of the game are similar to Football and violation of rule has some penalties. There are rules for everything that happens during the math whether it relates to a player or the referee.</p>
+                <button class="btn bg-[#FF4240] text-white mt-6">Register Now!</button>
+             </div>
+             <div class="bg-img2 pl-8 pt-20">
+               <h4 class=" text-white text-xl font-extrabold">Teenager Program</h4>
+               <p class=" text-white text-sm lg:text-base">Besides, most of the rules of the game are similar to Football and violation of rule has some penalties. There are rules for everything that happens during the math whether it relates to a player or the referee.</p>
+               <button class="btn bg-[#FF4240] text-white mt-6">Register Now!</button>
+             </div>
+             <div class="bg-img3 lg:col-span-2 pl-8 pt-20">
+               <h4 class=" text-white text-xl font-extrabold">Professional Program</h4>
+               <p class=" text-white text-sm lg:text-base">Besides, most of the rules of the game are similar to Football and violation of rule has some penalties. There are rules for everything that happens during the math whether it relates to a player or the referee.</p>
+               <button class="btn bg-[#FF4240] text-white mt-6">Register Now!</button>
+             </div>
+           </div>
         </section>
     </main>
     <footer>
